@@ -1,0 +1,22 @@
+server
+
+
+this app is essentially going to be a twitter like thread/track based visual task tracker.
+
+I'm tracking completion of tasks or goals as they happen. Each task will either be assigned to a rail track or create/merge a new track in the final app.
+
+all tasks will be character limited to as small a description as possible, 75 chars max.
+allowed 3 tags, first will be the assumed priority.
+
+
+Above the input panel will be the 3 previous tasks priority tags used as a reminder.
+
+Below the input panel will be a snippet of what the tracks look like right now. Should look like melted wax crayons, pretty and simple.
+
+
+any goals or dates mentioned should provide a countdown clock until that date? each time you visit it will update or ask about progress?
+
+
+watch for #note/notes #goal/goals #date/dates
+
+act accordingly on next visit..
