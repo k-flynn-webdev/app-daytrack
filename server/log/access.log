@@ -1,0 +1,401 @@
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 115.626 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-08/2019-05-01 HTTP/1.1 404 51 - 14.156 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 412 - 89.274 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-08/2019-05-01 HTTP/1.1 404 51 - 3.756 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.111 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.648 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.788 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.937 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.803 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.841 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.442 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.576 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.772 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.477 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.602 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 16.197 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.966 ms
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 200 70 - 33.672 ms
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 85.813 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 401 50 - 0.340 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.794 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.487 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.697 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.999 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.925 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.818 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.026 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.137 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.177 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 13.451 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.923 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.586 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.879 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.404 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.881 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 14.530 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.571 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 4.126 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.501 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.114 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 4.044 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 41.210 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 5.407 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.859 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.243 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.292 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.115 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 389 - 33.654 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 391 - 13.476 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 390 - 9.075 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.148 ms
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 200 70 - 14.319 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 401 50 - 0.421 ms
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 89.335 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 6.918 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.975 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 5.199 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.674 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.778 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.223 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 15.933 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 4.753 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 5.997 ms
+error finding user
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 404 54 - 8.193 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 96.807 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 3.350 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 4.299 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 401 - 17.319 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 1.985 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.999 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 402 - 12.780 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.396 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.996 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.373 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.695 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 4.286 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.056 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.148 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-09/2019-05-01 HTTP/1.1 404 51 - 2.033 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 70.625 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 18.896 ms
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 200 70 - 35.529 ms
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 123.058 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 21.870 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 404 51 - 23.394 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 404 51 - 4.776 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 404 51 - 2.448 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 404 51 - 2.651 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 404 51 - 3.654 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 21.445 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 20.478 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 5.807 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 3.529 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 2.648 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 13.464 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 11.486 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-02/2019-05-10 HTTP/1.1 202 694 - 3.981 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 15.365 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 3.946 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 9.181 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 6.710 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 694 - 3.221 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 409 - 39.912 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1005 - 3.092 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1005 - 10.162 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1005 - 3.512 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 442 - 13.652 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 4.756 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 3.897 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 5.366 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 4.650 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 5.532 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 4.542 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 5.642 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 3.055 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 11.704 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 3.093 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 5.745 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 2.917 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 5.402 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 3.103 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1349 - 4.328 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 414 - 13.664 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1665 - 7.894 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 414 - 11.529 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1981 - 2.893 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1981 - 9.795 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1981 - 9.887 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1981 - 6.132 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1981 - 8.445 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 3.191 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 4.366 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 10.651 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.387 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.502 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.955 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.534 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 126.352 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.720 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.876 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.682 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 403 - 15.664 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 3.686 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.015 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 5.257 ms
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 200 70 - 17.093 ms
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 104.209 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 8.190 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.945 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.740 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 3.122 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.693 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.693 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 3.917 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 3.139 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.517 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.730 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.662 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 2.942 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 392 - 19.988 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 466 - 40.634 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 760 - 5.259 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 432 - 34.491 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1094 - 11.588 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 432 - 41.480 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1428 - 9.737 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 419 - 35.650 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 1749 - 12.416 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 4.766 ms
+error finding user
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 404 54 - 7.678 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 96.015 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 4.117 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.212 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.648 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 459 - 10.883 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 6.691 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 4.731 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 3.816 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 6.391 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 3.122 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 4.504 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 3.184 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 2.987 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 3.007 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 448 - 2.870 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 456 - 24.939 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 806 - 5.442 ms
+tokens on blacklist expired:
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 19.052 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 4.706 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.129 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 165.586 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 4.716 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.071 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.088 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.888 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.757 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 500 2170 - 5.639 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.577 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.765 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.462 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.825 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.224 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 10.084 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 6.194 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.710 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 233.939 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.463 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 3.147 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.327 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.825 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.699 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.484 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.538 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.496 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 435 - 84.015 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 424 - 4.078 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 438 - 16.571 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 764 - 3.089 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 15.900 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 7.103 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 6.668 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 177.106 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 3.347 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.459 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.612 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.887 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.516 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.222 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.099 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.465 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.638 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.741 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 368 - 93.367 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 357 - 3.251 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 368 - 13.453 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 627 - 3.721 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 368 - 29.734 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 4.556 ms
+::ffff:127.0.0.1 - POST /api/account/create HTTP/1.1 201 468 - 165.836 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 28.049 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.565 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 2.631 ms
+no items found.
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 404 51 - 1.742 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 470 - 79.892 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 459 - 4.084 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 459 - 2.668 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 459 - 22.783 ms
+::ffff:127.0.0.1 - POST /api/task/create HTTP/1.1 201 558 - 22.236 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 919 - 4.220 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 919 - 3.879 ms
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 200 70 - 69.729 ms
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 142.982 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 919 - 13.030 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 919 - 5.109 ms
+error finding user, please login.
+::ffff:127.0.0.1 - POST /api/account/logout HTTP/1.1 500 69 - 3.144 ms
+::ffff:127.0.0.1 - POST /api/account/login HTTP/1.1 200 362 - 107.648 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 2073 - 5.948 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 2070 - 17.442 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 2070 - 8.177 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-05-02 HTTP/1.1 202 2070 - 4.882 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 20.417 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 7.090 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 6.797 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 15.520 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 5.462 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 9.146 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 9.593 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-25 HTTP/1.1 202 4087 - 11.194 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-09 HTTP/1.1 202 11820 - 20.374 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-03-20 HTTP/1.1 202 23006 - 28.129 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-01-29 HTTP/1.1 202 68309 - 53.369 ms
+::ffff:127.0.0.1 - POST /api/task/2019-05-10/2019-04-29 HTTP/1.1 202 3426 - 8.199 ms
