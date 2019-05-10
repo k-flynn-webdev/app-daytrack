@@ -1,48 +1,54 @@
 <template>
 
-	<c-panel v-bind:no_split="true">
-		<div slot="header">
-		</div>
+	<div class="task-input-panel">
 
-		<form 
-			class="form" 
-			action="/api/task/create" 
-			method ="POST" 
-			@submit.prevent="onSubmit">
+		<c-panel
+			v-bind:no_split="true">
 
-			<div class="field row-tight">
-				<input 
-					class="input-margin input-note1 text-bold text"
-					ref="task"  
-					type="string" 
-					name="task" 
-					placeholder="task">
+				<div slot="header">
+				</div>
 
-			</div>
+				<form 
+					class="form" 
+					action="/api/task/create" 
+					method ="POST" 
+					@submit.prevent="onSubmit">
+
+					<div class="field row-tight">
+						<input 
+							class="input-margin input-note1 text-bold text"
+							ref="task"  
+							type="string" 
+							name="task" 
+							placeholder="task">
+
+					</div>
 
 
-			<div class="field row-tight">
-				<input 
-					class="input-margin input-note1 text-bold text"
-					ref="options"  
-					type="string" 
-					name="options" 
-					placeholder="Options eg #home #new #done">
+					<div class="field row-tight">
+						<input 
+							class="input-margin input-note1 text-bold text"
+							ref="options"  
+							type="string" 
+							name="options" 
+							placeholder="Options eg #home #new #done">
 
-				<c-button 
-					type="submit"
-					v-bind:class="{ 
-						'is-loading' : input_waiting,
-						'is-success' : input_success, 
-						'is-error' : input_error }">
-						Add
-				</c-button>	
+						<c-button 
+							type="submit"
+							v-bind:class="{ 
+								'is-loading' : input_waiting,
+								'is-success' : input_success, 
+								'is-error' : input_error }">
+								Add
+						</c-button>	
 
-			</div>
+					</div>
 
-		</form>
+				</form>
 
-	</c-panel>
+		</c-panel>
+		
+	</div>	
 
 </template>
 
@@ -113,7 +119,7 @@
 					
 					setTimeout(function(){
 						// self.$quid_bg.add_to_start( result.data );
-						self.$root.$emit('itemChanged');
+						self.$root.$emit('tasks-change');
 					},750);
 
 				// 	// force an update 
@@ -132,6 +138,13 @@
 </script>
 
 <style scoped >
+
+	.task-input-panel {
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+
+	}
 
 	.input-margin {
 		margin-right: 0.5rem;

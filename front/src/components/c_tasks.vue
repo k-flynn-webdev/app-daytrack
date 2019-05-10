@@ -1,6 +1,6 @@
 <template>
 
-	<div>
+	<div class="tasks-holder">
 
 		<div 
 			class="tags width-85 center-auto-h">
@@ -139,6 +139,12 @@
 </script>
 
 <style scoped>
+
+.tasks-holder {
+	padding-top: 7.5rem;
+	/*overflow: hidden;*/
+	/*max-height: calc(100vh - 12rem);*/
+}
 
 .tags {
 	position: relative;

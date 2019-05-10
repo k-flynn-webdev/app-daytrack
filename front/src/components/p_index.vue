@@ -1,25 +1,25 @@
 <template>
-	<div>
-		<div v-if="isLoggedIn" >
+	<div style="position:relative;">
+		<template v-if="isLoggedIn" >
 
-			<transactions-input ></transactions-input>
+			<c-task-input></c-task-input>
 
 			<c-tasks></c-tasks>
 
-		</div>
+		</template>
 		
-		<div v-else>
+		<template v-else>
 			
 			<div> login please </div>
 
-		</div>	
+		</template>	
 	</div>
 </template>
 
 <script>
 
 	import Tasks from './c_tasks.vue';
-	import TransactionInput from './c_transaction_input.vue';
+	import TaskInput from './c_task_input.vue';
 
 
 	export default {
@@ -44,7 +44,7 @@
 		// },
 		components: {
 			'c-tasks' : Tasks,
-			'transactions-input' : TransactionInput,
+			'c-task-input' : TaskInput,
 		},	
 		mounted() {
 
