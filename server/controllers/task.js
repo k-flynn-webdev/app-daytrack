@@ -53,9 +53,9 @@ function cleanup(){
 
 }
 
-setTimeout( function(){
-	cleanup();
-}, 5000);
+// setTimeout( function(){
+// 	cleanup();
+// }, 5000);
 
 
 // TODO could export with a day and month integar for speedier client side?

@@ -1,5 +1,9 @@
 "use strict";
 
+// inject env file vars ..
+const dotenv = require('dotenv');
+const envs = dotenv.config({ path: './vars.env' });
+
 
 const express = require('express');
 
