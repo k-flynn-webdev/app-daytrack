@@ -13,6 +13,9 @@
 			<div> login please </div>
 
 		</template>	
+
+		<c-app-footer></c-app-footer>
+
 	</div>
 </template>
 
@@ -20,6 +23,7 @@
 
 	import Tasks from './c_tasks.vue';
 	import TaskInput from './c_task_input.vue';
+	import Footer from './c_app_footer.vue';
 
 
 	export default {
@@ -43,6 +47,7 @@
 		// 	this.$root.$on('itemClicked', this.input );
 		// },
 		components: {
+			'c-app-footer' : Footer,
 			'c-tasks' : Tasks,
 			'c-task-input' : TaskInput,
 		},	

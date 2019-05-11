@@ -1,3 +1,5 @@
+process.env.VUE_APP_VERSION = require('./package.json').version
+
 module.exports = {
   devServer: {
   	host: '127.0.0.1',
