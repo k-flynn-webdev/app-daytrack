@@ -1,7 +1,7 @@
 {
-  "name": "app_dayTrack_server",
-  "version": "0.1.0",
-  "description": "basic",
+  "name": "daytracker",
+  "version": "0.7.5",
+  "description": "day task tracking app.",
   "main": "app.js",
   "scripts": {
     "start": "node --inspect app.js",
