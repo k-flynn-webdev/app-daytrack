@@ -77,7 +77,7 @@ export default {
 		/*z-index: 1;*/
 		/*overflow: hidden;*/
 		/*opacity: 0;*/
-		pointer-events: none;
+		/*pointer-events: none;*/
 	}
 
 	.footer-content {
