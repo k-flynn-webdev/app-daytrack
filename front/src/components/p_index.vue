@@ -4,7 +4,7 @@
 
 			<c-task-input></c-task-input>
 
-			<c-tasks></c-tasks>
+			<c-tasks-tags></c-tasks-tags>
 
 		</template>
 		
@@ -21,7 +21,7 @@
 
 <script>
 
-	import Tasks from './c_tasks.vue';
+	import TasksTags from './c_tasks_tags.vue';
 	import TaskInput from './c_task_input.vue';
 	import Footer from './c_app_footer.vue';
 
@@ -48,7 +48,7 @@
 		// },
 		components: {
 			'c-app-footer' : Footer,
-			'c-tasks' : Tasks,
+			'c-tasks-tags' : TasksTags,
 			'c-task-input' : TaskInput,
 		},	
 		mounted() {
@@ -70,7 +70,6 @@
 	width: 18rem;
 	text-align: right;
 	margin-right: 1rem;
-	/*margin: 1rem;*/
 }
 
 .mid-section{

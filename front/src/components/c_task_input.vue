@@ -20,6 +20,7 @@
 							ref="task"  
 							type="string" 
 							name="task" 
+							v-model=input.task
 							placeholder="task">
 
 					</div>
@@ -28,10 +29,11 @@
 					<div class="field row-tight">
 						<input 
 							class="input-margin input-note1 text-bold text"
+							v-model=input.tags
 							ref="options"  
 							type="string" 
 							name="options" 
-							placeholder="Options eg #home #new #done">
+							placeholder="Tags eg #home new, done">
 
 						<c-button 
 							type="submit"
@@ -54,6 +56,33 @@
 
 <script>
 
+
+function isDupe( input, index, array){
+	for( let a =0; a < array.length; a++){
+		if(array[a] == input && index !== a ){
+			return true;
+		}
+	}
+}
+
+function splitFunc( item ){
+	let splits = [];
+	let temp = item.split(/[,# ]+/);
+
+	for( let b =0; b < temp.length; b++){
+
+		let newOption = temp[b].trim();
+		if( newOption.length > 1){
+			if( !isDupe( newOption, b, temp) ){
+				splits.push( newOption );
+			}		
+		}
+	}
+
+	return splits;
+}
+
+
 	import Panel from './c_panel.vue';
 	import Button from './c_button.vue';
 
@@ -65,6 +94,10 @@
 				input_waiting : false,
 				input_success : false,
 				input_error : false,
+				input : {
+					task : '',
+					tags : '',
+ 				}
 			}
 		},
 		computed : {
@@ -127,12 +160,28 @@
 				// 	self.$message.send({isType:'success',title:"success",message:result.message});
 
 				});
-			}			
+			},
+			update_tags : function( input ){
+				let tempArray = splitFunc( this.input.tags );
+
+				let tempIndex = tempArray.indexOf(input)
+				
+				if( tempIndex === -1 ){
+					this.input.tags += ' ' + input;	
+				} 
+
+				if( tempIndex >= 0 ){
+					this.input.tags = this.input.tags.replace( input, '').trim();
+				}
+			}
 		},
 		components: {
 			'c-button' : Button,
 			'c-panel' : Panel,
-		},		
+		},
+		mounted(){
+			this.$root.$on( 'tag-click', this.update_tags);
+		},
 	}
 
 </script>

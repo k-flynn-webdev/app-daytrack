@@ -28,6 +28,9 @@
       // console.log('after:')
       // console.log( this.$request.get_SecureKey() );
     },
+    mounted(){
+      document.title = 'day tracker';
+    },
     components: {
       'nav-bar' : Navbar,
       'notification' : Notification,

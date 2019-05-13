@@ -2,21 +2,18 @@
 
 	<div class="tasks-holder">
 
-		<div 
-			class="tags width-85 center-auto-h">
-				<p 
-					class="tag"
-					v-for="(tag, index) in tags">
-					{{ prepare_tag(tag) }}
-				</p>
-		</div>
+		<c-tags
+			v-bind:tags=tags>
+		</c-tags>
 
-		<c-task 
-			v-for="(item, index) in tasks"
-			v-bind:key="item.date"
-			v-bind:style=get_style_task(index)
-			v-bind:input=item>		
-		</c-task>
+		<transition-group name="task" tag="span">
+			<c-task 
+				v-for="(item, index) in tasks"
+				v-bind:key="item.date"
+				v-bind:style=get_style_task(index)
+				v-bind:input=item>		
+			</c-task>
+		</transition-group>
 
 	</div>
 
@@ -27,6 +24,7 @@
 	let counter = null;
 
 	import Task from './c_task.vue';
+	import Tags from './c_tags.vue';
 	import { submit } from '../mixins/h_submit.js';
 
 	export default {
@@ -134,27 +132,54 @@
 		},
 		components: {
 			'c-task' : Task,
+			'c-tags' : Tags,
 		},	
 	}
 </script>
 
 <style scoped>
 
-.tasks-holder {
-	padding-top: 7.5rem;
-	/*overflow: hidden;*/
-	/*max-height: calc(100vh - 12rem);*/
-}
+	.tasks-holder {
+		padding-top: 7.5rem;
+		/*overflow: hidden;*/
+		/*max-height: calc(100vh - 12rem);*/
+	}
 
-.tags {
-	position: relative;
-	text-align: center;
-}
+	.tags {
+		position: relative;
+		text-align: center;
+	}
 
-.tag {
-	display: inline-block;
-	margin-right: .5rem;
-}
+	.tag {
+		display: inline-block;
+		margin-right: .5rem;
+	}
 
+	.task-enter-active {
+		animation: add-task 1s cubic-bezier(.26,.03,0,.9);
+	}
+
+	.task-leave-active {
+		position: absolute;
+		animation: add-task 1s reverse cubic-bezier(.26,.03,0,.9);
+	}
+
+	.task-move {
+		transition: transform 1s cubic-bezier(.26,.03,0,.9);
+	}
+
+	@keyframes add-task {
+		0% {
+			opacity: 0;
+			transform: translateY(-10rem);
+		}
+		60% {
+			opacity: .1;
+		}		
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
 
 </style>
