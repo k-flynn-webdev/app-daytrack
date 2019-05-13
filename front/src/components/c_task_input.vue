@@ -30,10 +30,11 @@
 						<input 
 							class="input-margin input-note1 text-bold text"
 							v-model=input.tags
-							ref="options"  
+							ref="tags"  
 							type="string" 
 							name="options" 
-							placeholder="Tags eg #home new, done">
+							placeholder="Tags eg #home new, done"
+							v-on:change=lower>
 
 						<c-button 
 							type="submit"
@@ -57,9 +58,10 @@
 <script>
 
 
+
 function isDupe( input, index, array){
 	for( let a =0; a < array.length; a++){
-		if(array[a] == input && index !== a ){
+		if(array[a].toLowerCase() == input.toLowerCase() && index !== a ){
 			return true;
 		}
 	}
@@ -67,7 +69,7 @@ function isDupe( input, index, array){
 
 function splitFunc( item ){
 	let splits = [];
-	let temp = item.split(/[,# ]+/);
+	let temp = item.toLowerCase().split(/[,# ]+/);
 
 	for( let b =0; b < temp.length; b++){
 
@@ -87,7 +89,7 @@ function splitFunc( item ){
 	import Button from './c_button.vue';
 
 	export default {
-		name: 'cTransactionInput',
+		name: 'cTaskInput',
 		data() {
 			return {
 				type : "--",
@@ -101,25 +103,21 @@ function splitFunc( item ){
 			}
 		},
 		computed : {
-			contentSign : function(){
-				if( this.input.sign > 0 ){
-					return true;
-				}else{
-					return false;
-				}
-			},
 			contentState : function(){
 				return this.input.display;
 			},
 		},
-		methods: {
+		methods : {
+			lower : function(){
+				this.input.tags = this.input.tags.toLowerCase();
+			},
 			reset : function(){
 				this.$refs.task.value = '';
-				this.$refs.options.value = '';
-			},	
+				this.$refs.tags.value = '';
+			},
 			onClick : function(){
 				this.input.display = false;
-			},	
+			},
 			reset_button : function(){
 				let self = this;
 				setTimeout( function(){
@@ -168,7 +166,7 @@ function splitFunc( item ){
 				
 				if( tempIndex === -1 ){
 					this.input.tags += ' ' + input;	
-				} 
+				}
 
 				if( tempIndex >= 0 ){
 					this.input.tags = this.input.tags.replace( input, '').trim();

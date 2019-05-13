@@ -85,7 +85,7 @@ function options_split( input ){
 
 			let newOption = temp[b].trim();
 			if( newOption.length > 1){
-				splits.push( newOption );
+				splits.push( newOption.toLowerCase() );
 			}
 		}
 

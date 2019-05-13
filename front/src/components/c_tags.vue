@@ -20,7 +20,7 @@
 
 function isDupe( input, index, array){
 	for( let a =0; a < array.length; a++){
-		if(array[a] == input && index !== a ){
+		if(array[a].toLowerCase() == input.toLowerCase() && index !== a ){
 			return true;
 		}
 	}
@@ -51,16 +51,13 @@ function isDupe( input, index, array){
 			}, 
 		},
 		methods: {
-			perpare_default : function(){
-
-			},
 			prepare_tag : function( tag ){
-				let tag_prepared = '#' + tag;
+				let tag_prepared = '#' + tag.toLowerCase();
 				// todo make this a clickable link element in future!
 				return tag_prepared;
 			},
 			tag_click : function( tag ){
-				this.$root.$emit( 'tag-click', tag);
+				this.$root.$emit( 'tag-click', tag.toLowerCase());
 			},
 		},
 		mounted() {
