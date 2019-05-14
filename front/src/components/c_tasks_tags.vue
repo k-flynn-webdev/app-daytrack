@@ -161,7 +161,7 @@
 	}
 
 	.task-enter-active {
-		animation: add-task 1s cubic-bezier(.26,.03,0,.9) calc( .13s * var(--i));
+		animation: add-task 1s cubic-bezier(.26,.03,0,.9) calc( .25s * var(--i));
 	}
 
 	.task-leave-active {
