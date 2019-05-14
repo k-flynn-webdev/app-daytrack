@@ -112,6 +112,8 @@ function splitFunc( item ){
 				this.input.tags = this.input.tags.toLowerCase();
 			},
 			reset : function(){
+				this.input.task = '';
+				this.input.tags = '';
 				this.$refs.task.value = '';
 				this.$refs.tags.value = '';
 			},
