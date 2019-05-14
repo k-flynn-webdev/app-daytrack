@@ -118,7 +118,8 @@
 			},
 			get_style_task : function( index ){
 				let shade = 1 / this.tasks.length;
-				return { 'opacity' : 1 - (index * shade) };
+				return { '--i' : index };
+				return { 'opacity' : 1 - (index * shade), '--i' : index };
 			},
 			prepare_tag : function( tag ){
 				let tag_prepared = '#' + tag;
@@ -155,8 +156,12 @@
 		margin-right: .5rem;
 	}
 
+	.task-enter, .task-enter-to {
+		opacity: 0;
+	}
+
 	.task-enter-active {
-		animation: add-task 1s cubic-bezier(.26,.03,0,.9);
+		animation: add-task 1s cubic-bezier(.26,.03,0,.9) calc( .13s * var(--i));
 	}
 
 	.task-leave-active {
@@ -169,13 +174,10 @@
 	}
 
 	@keyframes add-task {
-		0% {
+		40% {
 			opacity: 0;
-			transform: translateY(-10rem);
+			transform: scale(.75) translateY(-5rem);
 		}
-		60% {
-			opacity: .1;
-		}		
 		100% {
 			opacity: 1;
 			transform: translateY(0);

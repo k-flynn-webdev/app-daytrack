@@ -18,7 +18,8 @@
 					
 					<p 	
 						class="tag" 
-						v-for="(tag, index) in get_tags">
+						v-for="(tag, index) in get_tags"
+						v-on:click=tag_click(tag)>
 						
 						{{ prepare_tag(tag) }}
 
@@ -68,6 +69,9 @@
 				// todo make this a clickable link element in future!
 				return tag_prepared;
 			},
+			tag_click : function( tag ){
+				this.$root.$emit( 'tag-click', tag.toLowerCase());
+			},			
 		},
 		mounted(){
 		}
@@ -83,6 +87,13 @@
 		background-color: hsl(30,20%,90%);
 		border-radius: .33rem;
 		margin: 1rem 0;
+		transition: .3s;
+		box-sizing: border-box;
+	}
+
+	.task:hover {
+		transform: scale(1.04);
+		border-bottom: solid black 1px;
 	}
 
 	.task-content {
