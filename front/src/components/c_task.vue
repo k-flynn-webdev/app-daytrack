@@ -2,7 +2,8 @@
 
 	<div class="width-85 center-auto-h">
 
-		<div class="task">
+		<div class="task"
+			v-bind:style="{ opacity : shade }">
 
 			<div class="task-content">
 
@@ -45,6 +46,7 @@
 		name: 'cTrack',
 		props: {
 			input : Object,
+			shade : Number,
 		},
 		data(){
 			return{

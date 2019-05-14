@@ -11,7 +11,8 @@
 				v-for="(item, index) in tasks"
 				v-bind:key="item.date"
 				v-bind:style=get_style_task(index)
-				v-bind:input=item>		
+				v-bind:shade=get_shade(index)
+				v-bind:input=item>
 			</c-task>
 		</transition-group>
 
@@ -118,9 +119,13 @@
 			},
 			get_style_task : function( index ){
 				let shade = 1 / this.tasks.length;
-				return { '--i' : index };
-				return { 'opacity' : 1 - (index * shade), '--i' : index };
+				return { '--i' : index + 1 };
+				return { 'opacity' : 1 - (index * shade), '--i' : index + 1 };
 			},
+			get_shade : function( index ){
+				let shade = 1 / (this.tasks.length + 2);
+				return 1 - (index * shade);
+			},			
 			prepare_tag : function( tag ){
 				let tag_prepared = '#' + tag;
 				// todo make this a clickable link element in future!
@@ -174,10 +179,13 @@
 	}
 
 	@keyframes add-task {
-		40% {
+		0% {
 			opacity: 0;
 			transform: scale(.75) translateY(-5rem);
 		}
+		50% {
+			opacity: 0.33;
+		}		
 		100% {
 			opacity: 1;
 			transform: translateY(0);

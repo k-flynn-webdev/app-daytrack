@@ -10,7 +10,7 @@
 			v-bind:key="tag"
 			v-on:click=tag_click(tag)
 			v-bind:data-index="index"
-			v-bind:style="{'--i': index}"
+			v-bind:style="{'--i': index + 1}"
 			class="tag">
 
 				{{ prepare_tag(tag) }}
