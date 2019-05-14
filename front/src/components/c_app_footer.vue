@@ -78,6 +78,16 @@ export default {
 		display: inline-block;
 		margin: 0;
 		padding: 0;
+		animation: anim-appear 1s ease;
+	}
+
+	@keyframes anim-appear {
+		0% {
+			opacity: 0;
+		}		
+		100% {
+			opacity: 1;
+		}
 	}
 
 	.app-version {
