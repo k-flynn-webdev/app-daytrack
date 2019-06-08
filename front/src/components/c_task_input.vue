@@ -161,7 +161,7 @@ function splitFunc( item ){
 
 				});
 			},
-			update_tags : function( input ){
+			update_from_tags : function( input ){
 				let tempArray = splitFunc( this.input.tags );
 
 				let tempIndex = tempArray.indexOf(input)
@@ -173,14 +173,58 @@ function splitFunc( item ){
 				if( tempIndex >= 0 ){
 					this.input.tags = this.input.tags.replace( input, '').trim();
 				}
-			}
+			},
+			update_from_task : function( input ){
+
+				let tempArray = splitFunc( this.input.tags );
+
+				function isMatch(item){
+					for( let a = 0; a < tempArray.length; a++){
+						if( item.toLowerCase().trim() === tempArray[a].toLowerCase().trim() ){
+							return true;
+						}
+					}
+					return false;
+				}
+
+				let match = 0;
+				for( let b = 0; b < input.length; b++){
+					if( isMatch( input[b] ) ){
+						match +=1;
+					}
+				}
+
+				if( match === input.length ){
+					for( let b = 0; b < input.length; b++){
+						this.update_from_tags( input[b] );
+					}
+					return;
+				}
+
+				if( match > 0 && match < input.length ){
+					for( let b = 0; b < input.length; b++){
+						if( !isMatch( input[b] ) ){
+							this.update_from_tags( input[b] );
+						}
+					}
+					return;
+				}
+
+				if( !match){
+					for( let b = 0; b < input.length; b++){
+						this.update_from_tags( input[b] );
+					}
+					return;
+				}
+			}			
 		},
 		components: {
 			'c-button' : Button,
 			'c-panel' : Panel,
 		},
 		mounted(){
-			this.$root.$on( 'tag-click', this.update_tags);
+			this.$root.$on( 'tag-click', this.update_from_tags);
+			this.$root.$on( 'task-click', this.update_from_task);
 		},
 	}
 

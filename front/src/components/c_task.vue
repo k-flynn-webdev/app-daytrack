@@ -22,7 +22,7 @@
 						class="tag" 
 						v-for="(tag, index) in get_tags"
 						v-bind:key=tag
-						v-on:click=tag_click(tag)>
+						v-on:click.stop=tag_click(tag)>
 						
 						{{ prepare_tag(tag) }}
 
@@ -74,13 +74,14 @@
 				return tag_prepared;
 			},
 			task_click : function(){
+				let array = [];
 				for( let i=0; i < this.get_tags.length; i++ ){
-					let tag_prepared = this.prepare_tag( this.get_tags[i] );
-					this.$root.$emit( 'tag-click', tag_prepared.toLowerCase());	
+					array.push( this.get_tags[i].toLowerCase().trim() );	
 				}
+				this.$root.$emit( 'task-click', array );
 			},				
 			tag_click : function( tag ){
-				this.$root.$emit( 'tag-click', tag.toLowerCase());
+				this.$root.$emit( 'tag-click', tag.toLowerCase().trim());
 			},			
 		},
 		mounted(){
@@ -93,6 +94,7 @@
 
 	.task {
 		position: relative;
+		z-index: 0;
 		width: 100%;
 		background-color: hsl(30,20%,90%);
 		border-radius: .33rem;
@@ -104,12 +106,13 @@
 	.task:hover {
 		transform: scale(1.025);
 		border-bottom: solid black 1px;
+		opacity: 1 !important;
 	}
 
 	.task:active {
 		transform: scale(1.04);
 		border-bottom: solid black 1px;
-		opacity: 1;
+		opacity: 1 !important;
 	}
 
 	.task-content {
@@ -131,6 +134,8 @@
 		text-align: left;
 	}
 	.task-tags .tag{
+		position: relative;
+		z-index: 10;		
 		display: inline-block;
 		margin-right: .2rem;
 	}	
