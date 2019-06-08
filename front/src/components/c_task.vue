@@ -3,6 +3,7 @@
 	<div class="width-85 center-auto-h">
 
 		<div class="task"
+			v-on:click=task_click
 			v-bind:style="{ opacity : shade }">
 
 			<div class="task-content">
@@ -20,6 +21,7 @@
 					<p 	
 						class="tag" 
 						v-for="(tag, index) in get_tags"
+						v-bind:key=tag
 						v-on:click=tag_click(tag)>
 						
 						{{ prepare_tag(tag) }}
@@ -71,6 +73,12 @@
 				// todo make this a clickable link element in future!
 				return tag_prepared;
 			},
+			task_click : function(){
+				for( let i=0; i < this.get_tags.length; i++ ){
+					let tag_prepared = this.prepare_tag( this.get_tags[i] );
+					this.$root.$emit( 'tag-click', tag_prepared.toLowerCase());	
+				}
+			},				
 			tag_click : function( tag ){
 				this.$root.$emit( 'tag-click', tag.toLowerCase());
 			},			
@@ -94,8 +102,14 @@
 	}
 
 	.task:hover {
+		transform: scale(1.025);
+		border-bottom: solid black 1px;
+	}
+
+	.task:active {
 		transform: scale(1.04);
 		border-bottom: solid black 1px;
+		opacity: 1;
 	}
 
 	.task-content {
