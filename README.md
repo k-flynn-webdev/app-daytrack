@@ -1,6 +1,9 @@
 # app-daytrack
 A simple journal app
 
+wip video here:
+https://www.instagram.com/p/Bxch1WEFYzs/
+
 
 
 # Variables
