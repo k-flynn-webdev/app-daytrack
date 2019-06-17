@@ -4,6 +4,7 @@ A simple journal app
 wip video here:
 https://www.instagram.com/p/Bxch1WEFYzs/
 
+![shot](./docs/current.gif?raw=true "current wip")
 
 
 # Variables
