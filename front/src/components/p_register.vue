@@ -39,6 +39,12 @@
 	import Button from './c_button.vue';
 	import Panel from './c_panel.vue';
 
+	let oldVars = {
+		name : 'test',
+		email : 'test@test.com',
+		password : 'password',
+	}
+
 	export default {
 		name: 'Register',
 		data(){
@@ -47,9 +53,9 @@
 				success : false,
 				error : false,
 				AccountInfo : {
-					Name : { show : true, isRequired : true, value : 'test' },
-					Email : { show : true, isRequired : true, value : 'test@test.com' },
-					Password : { show : true, isRequired : true, value : 'password' },
+					Name : { show : true, isRequired : true, value : '' },
+					Email : { show : true, isRequired : true, value : '' },
+					Password : { show : true, isRequired : true, value : '' },
 				}
 			}
 		},		
