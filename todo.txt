@@ -1,7 +1,19 @@
 
+its all about making tracks, celebrating long running tracks.
+
+index page should have anon tracks made today, this week, to date etc all about encouragement...
+
+Add week totals as default in a header somehow?
+
+have a popular suggestion for tags, easy to click and open add?
+
+add peek to day/week/month/year streaks, start this:
+	1st attempt add just count of each type per time selected.
+	2nd add a simple graph
+	3rd add wax graph
+	4th add polished glitz!
+
+add remove/edit eventually to past entries.
 
 have a business or personel panel choice.
-show in a peek kind of way, last 3 updates with a mouseover below?
-show last 5 common tags as an easy add on click and a text snippet on mouse over
-
 
